@@ -24,12 +24,20 @@ namespace TweedeProject
         {
             InitializeComponent();
         }
+        int teller;
         Random rand = new Random();
         private void btn_click3_Click(object sender, RoutedEventArgs e)
         {
             //Monssef
             int random = rand.Next(10);
             lblOutput3.Content = random.ToString();
+        }
+
+        private void btn_click2_Click(object sender, RoutedEventArgs e)
+        {
+            //Jordy
+            teller++;
+            lblOutput2.Content = teller.ToString();
         }
     }
 }
