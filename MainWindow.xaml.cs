@@ -24,5 +24,10 @@ namespace TweedeProject
         {
             InitializeComponent();
         }
+
+        private void btn_click1_Click(object sender, RoutedEventArgs e)
+        {
+            lblOutput1.Content = "Hello world!";
+        }
     }
 }

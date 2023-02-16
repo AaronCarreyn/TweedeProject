@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btn_click1" Content="Hello world" HorizontalAlignment="Left" Margin="146,119,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_click1" Content="Hello world" HorizontalAlignment="Left" Margin="146,119,0,0" VerticalAlignment="Top" Click="btn_click1_Click"/>
         <Button x:Name="btn_click3" Content="Random" HorizontalAlignment="Left" Margin="582,119,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btn_click2" Content="Teller" HorizontalAlignment="Center" Margin="0,119,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblOutput2" Content="Label" HorizontalAlignment="Center" Margin="0,163,0,0" VerticalAlignment="Top"/>
