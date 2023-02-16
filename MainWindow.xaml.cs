@@ -24,5 +24,12 @@ namespace TweedeProject
         {
             InitializeComponent();
         }
+        Random rand = new Random();
+        private void btn_click3_Click(object sender, RoutedEventArgs e)
+        {
+            //Monssef
+            int random = rand.Next(10);
+            lblOutput3.Content = random.ToString();
+        }
     }
 }
