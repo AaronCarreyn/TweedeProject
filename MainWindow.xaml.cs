@@ -24,5 +24,10 @@ namespace TweedeProject
         {
             InitializeComponent();
         }
+        int teller;
+        private void btn_click2_Click(object sender, RoutedEventArgs e)
+        {
+            teller++;
+        }
     }
 }
